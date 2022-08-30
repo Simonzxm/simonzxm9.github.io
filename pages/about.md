@@ -18,8 +18,6 @@ This blog is just for fun.
 {% for website in site.data.social %}
 <li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
 {% endfor %}
-{% if site.url contains 'simonzxm.github.io' %}
-{% endif %}
 </ul>
 
 
